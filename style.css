@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: Rubik;
+}
+.p
+{
+    width: 100%;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #808080;
+}
+button
+{
+    max-width: 131px;
+    width:100%;
+    height: 47px;
+    font-size: 11.7px;
+    margin-left: -3px;
+    letter-spacing: 1.6px;
+    color: #fff;
+    border: none;
+    background-color: #000000;
+}
+input[type="text"]
+{
+    width: 370px;
+    padding: 10px;
+    font-family: rubika;
+    height: 47px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: 0.02px;
+    color: #808080;
+    border: solid 1px #dadada;
+}
+.container
+{
+    width: 100%;
+    margin: 0 auto 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 15em;
+}
+.subcontent
+{
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+.subcontent p 
+{
+    padding: 30px 0;
+    color: #808080;
+}
+.heading
+{
+    max-width: 866px;
+    width: 100%;
+    font-family: Moderat;
+    font-size: 62px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: -1.88px;
+    text-align: center;
+    color: #000000;
+}
+.foo
+{
+    padding: 12px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Rubik;
+}
+.foo > img
+{
+    flex-basis: 3%;
+}
+span
+{
+    padding-right: 36px;
+    font-size: 16px;
+    line-height: 1.63;
+    color: #808080;
+    letter-spacing: 0.3px;
+}
+.Tick_with_bg 
+{
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+@media screen and (max-width:1440px){
+    
+    .container
+    {
+        padding:5rem 17rem;
+    }
+}
+@media screen and   (max-width:1024px)
+{
+    .container
+    {
+        padding:5rem
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    body{width:100%;}
+    .container
+    {
+        padding:4rem 4rem;
+    }
+    .heading{font-size:50px;}
+    .subcontent p{font-size:14px;padding:25px 0}
+     input[type="text"]
+     {
+         width:250px;
+     }
+     button{width:20%}
+    .foo span{font-size:10px;padding-right:30px;}
+    .foo img{padding-right:5px}
+}
+@media screen and (max-width:425px) and (min-width:320px)
+{
+    .container
+    {
+        padding:5rem 2rem;
+    }
+    .heading
+    {
+        font-size:30px;
+    }
+    .subcontent p 
+    {
+        font-size:10px;
+        padding:20px;
+    }
+    input[type="text"]
+    {
+        width:150px;
+        height:30px;
+        font-size:10px;
+    }
+ 
+    button{width:24%;font-size:7px;height:30px}
+    .foo span
+    {
+        font-size:8px;
+        padding-right:5px;
+    }
+    .foo img    
+    {
+        width:15px;
+    }
+}
+
